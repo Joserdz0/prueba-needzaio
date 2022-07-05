@@ -14,23 +14,23 @@
     ]
   },
   "AppUser": {
-    "dataSource": null,
+    "dataSource": "Mysql",
     "public": true
   },
   "TypeDocument": {
-    "dataSource": null,
+    "dataSource": "Mysql",
     "public": true
   },
   "Country": {
-    "dataSource": null,
+    "dataSource": "Mysql",
     "public": true
   },
   "UserDocument": {
-    "dataSource": null,
+    "dataSource": "Mysql",
     "public": true
   },
   "ContactInfo": {
-    "dataSource": null,
+    "dataSource": "Mysql",
     "public": true
   }
 }

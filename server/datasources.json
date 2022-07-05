@@ -1,1 +1,12 @@
-{}
+{
+  "Mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "prueba-needzaio",
+    "password": "",
+    "name": "Mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
