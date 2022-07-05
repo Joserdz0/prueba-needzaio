@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "AppUser": {
+    "dataSource": null,
+    "public": true
+  },
+  "TypeDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "Country": {
+    "dataSource": null,
+    "public": true
+  },
+  "UserDocument": {
+    "dataSource": null,
+    "public": true
+  },
+  "ContactInfo": {
+    "dataSource": null,
+    "public": true
+  }
+}
