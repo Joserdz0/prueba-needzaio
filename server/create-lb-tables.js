@@ -1,6 +1,6 @@
 var server = require('./server');
 var ds = server.dataSources.Mysql;
-var lbTables = ['AppUser','TypeDocument','Country','UserDocument','ContactInfo'];
+var lbTables = ['AppUser','TypeDocument','UserDocument','Country','ContactInfo'];
 ds.automigrate(lbTables, function(er) {
   if (er) throw er;
   console.log('Loopback tables [' + lbTables + '] created in ', ds.adapter.name);

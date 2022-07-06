@@ -29,7 +29,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "userDocuments": {
+      "type": "hasMany",
+      "model": "UserDocument",
+      "foreignKey": "UserID"
+    },
+    "contactInfos": {
+      "type": "hasMany",
+      "model": "ContactInfo",
+      "foreignKey": "UserID"
+    }
+  },
   "acls": [],
   "methods": {}
 }

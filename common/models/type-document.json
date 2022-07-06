@@ -13,7 +13,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "userDocuments": {
+      "type": "hasMany",
+      "model": "UserDocument",
+      "foreignKey": "TypeDocumentID"
+    }
+  },
   "acls": [],
   "methods": {}
 }

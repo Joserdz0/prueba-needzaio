@@ -17,7 +17,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "contactInfos": {
+      "type": "hasMany",
+      "model": "ContactInfo",
+      "foreignKey": "CountryID"
+    }
+  },
   "acls": [],
   "methods": {}
 }

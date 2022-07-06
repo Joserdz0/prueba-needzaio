@@ -41,7 +41,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "appUser": {
+      "type": "belongsTo",
+      "model": "AppUser",
+      "foreignKey": "UserID"
+    },
+    "country": {
+      "type": "belongsTo",
+      "model": "Country",
+      "foreignKey": "CountryID"
+    }
+  },
   "acls": [],
   "methods": {}
 }

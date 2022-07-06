@@ -29,7 +29,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "typeDocument": {
+      "type": "belongsTo",
+      "model": "TypeDocument",
+      "foreignKey": "TypeDocumentID"
+    },
+    "appUser": {
+      "type": "belongsTo",
+      "model": "AppUser",
+      "foreignKey": "UserID"
+    }
+  },
   "acls": [],
   "methods": {}
 }
